@@ -1,15 +1,25 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import GlobalStyle from './styles/GlobaStyle';
-import './index.css';
+import Home from './pages/Home';
+import Page2 from './pages/Page2';
+import Page3 from './pages/Page3';
+
 
 function App() {
   return (
-    <div className="App">
+    <> 
 
-      <GlobalStyle />
+      <GlobalStyle />  
 
-      <h1 className='firstLaunch'>Hello App !</h1>
-      
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='page2' element={<Page2 />} />
+          <Route path='page3' element={<Page3 />} />
+        </Routes>
+      </BrowserRouter>
+
+    </>
   );
 }
 
