@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 
 export default function Page2() {
+  document.title = 'Page 2';
   return (
     <div>
         <Navigation />
