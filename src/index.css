@@ -1,4 +1,4 @@
-*, ::before, ::after {
+/* *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,4 +11,4 @@ body {
 .firstLaunch {
   margin: 1rem auto;
   text-align: center;
-}
+} */
