@@ -20,7 +20,10 @@ const StyledLink = styled(Link)`
     color: #F1F1F1;
     text-decoration: none;
     font-size: 1.5rem;
-  
+    
+    &:hover {
+        color: teal;
+    }
 `;
 
 export default function Navigation() {
