@@ -4,9 +4,9 @@ Ce projet a été créé avec pour base [Create React App](https://github.com/fa
 
 ## Installation
 
-### Cloner le repository
+Cloner le repository
 
-### Installer avec `npm install`
+Installer avec `npm install`
 
 Et voilà !
 
