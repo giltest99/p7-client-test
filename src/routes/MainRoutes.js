@@ -1,8 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
-import Page2 from '../pages/Page2';
-import Page3 from '../pages/Page3';
+import CreatePost from '../pages/CreatePost';
+import AllComments from '../pages/AllComments';
+import CreateComment from '../pages/CreateComment';
+import CreateUser from '../pages/CreateUser';
+import AllUsers from '../components/AllUsers';
 import NoPage from '../pages/NoPage';
 
 export default function MainRoutes() {
@@ -10,8 +13,11 @@ export default function MainRoutes() {
     
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='page2' element={<Page2 />} />
-            <Route path='page3' element={<Page3 />} />
+            <Route path='createpost' element={<CreatePost />} />
+            <Route path='allcomments' element={<AllComments />} />
+            <Route path='createcomment' element={<CreateComment />} />
+            <Route path='createuser' element={<CreateUser />} />
+            <Route path='allusers' element={<AllUsers />} />
             <Route path='*' element={<NoPage />} />
         </Routes>
     

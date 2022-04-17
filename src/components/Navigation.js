@@ -32,13 +32,22 @@ export default function Navigation() {
         <Nav className='w3-container'>
             <ul>
                 <li>
-                    <StyledLink to='/'>Home</StyledLink>
+                    <StyledLink to='/'>ALL POSTS</StyledLink>
                 </li>
                 <li>
-                    <StyledLink to='/page2'>Page 2</StyledLink>
+                    <StyledLink to='/createpost'>CREATE POST</StyledLink>
                 </li>
                 <li>
-                    <StyledLink to='/page3'>Page 3</StyledLink>
+                    <StyledLink to='/allcomments'>ALL COMMENTS</StyledLink>
+                </li>
+                <li>
+                    <StyledLink to='/createcomment'>CREATE COMMENT</StyledLink>
+                </li>
+                <li>
+                    <StyledLink to='/createuser'>CREATE USER</StyledLink>
+                </li>
+                <li>
+                    <StyledLink to='/allusers'>ALL USERS</StyledLink>
                 </li>
             </ul>
         </Nav>
