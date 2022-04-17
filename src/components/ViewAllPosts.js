@@ -25,15 +25,11 @@ export default function ViewAllPosts() {
     }, []);
 
     const onDelete = (id) => {
-        /* axios.delete(`http://localhost:3080/api/posts/${id}`)
+        axios.delete(`http://localhost:3080/api/posts/${id}`)
         .then(() => {
             getData();
-        }) */
-        fetch(`http://localhost:3080/api/posts/${id}`, {
-            method: 'DELETE',
-            })
-            .then(res => res.json()) // or res.json()
-            .then(res => console.log(res))
+        })
+
                     
     }
 
